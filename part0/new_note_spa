@@ -1,0 +1,7 @@
+browser->server: HTTP/GET https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over browser:
+browser preven form from submit
+browser add the new note the the notes array through js
+browser then send the new note to server
+end note
+server-->browser: {message: "note created"}
